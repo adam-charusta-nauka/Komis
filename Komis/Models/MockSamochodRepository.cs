@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Komis.Models
 {
-    public class MockSamochodRepository : ISamochodReposiotory
+    public class MockSamochodRepository : ISamochodRepository
     {
 
         private List<Samochod> samochody;

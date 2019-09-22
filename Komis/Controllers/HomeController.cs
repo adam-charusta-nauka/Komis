@@ -9,11 +9,11 @@ namespace Komis.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ISamochodReposiotory _samochodReposiotory;
+        private readonly ISamochodRepository _samochodReposiotory;
 
         /*Dzięki temu że użyliśmy wstrzykiwania zależności to nie musimy dodawać klasy MockSamochodRepository przez konstruktor new, tylko dajemy kostruktorowi
          inrofmacje że potrzebuje obiektu na bazie interfejsu(klasy) ISamochodReposiotory, nazywa się to "wstrzyknięciem konstruktora"*/
-        public HomeController(ISamochodReposiotory samochodRepository)
+        public HomeController(ISamochodRepository samochodRepository)
         {
             _samochodReposiotory = samochodRepository;
         }   
