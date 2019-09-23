@@ -8,6 +8,7 @@
         <label asp-for="NazwaUzytkownika" class="col-md-2 control-label"></label>
         <div class="col-md-5">
             <input asp-for="NazwaUzytkownika" class="form-control" />
+            <span asp-validation-for="NazwaUzytkownika" class="text-danger"></span>
         </div>
     </div>
 
@@ -15,6 +16,7 @@
         <label asp-for="Email" class="col-md-2 control-label"></label>
         <div class="col-md-5">
             <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
         </div>
     </div>
 
@@ -22,6 +24,7 @@
         <label asp-for="Wiadomosc" class="col-md-2 control-label"></label>
         <div class="col-md-5">
             <textarea asp-for="Wiadomosc" class="form-control"></textarea>
+            <span asp-validation-for="Wiadomosc" class="text-danger"></span>
         </div>
     </div>
 
