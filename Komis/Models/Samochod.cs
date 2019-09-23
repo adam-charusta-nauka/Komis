@@ -27,5 +27,7 @@
         public string MiniaturkaUrl { get; set; }
 
         public bool JestSamochodemTygodnia { get; set; }
+
+        public bool JestWCentali { get; set; }
     }
 }
